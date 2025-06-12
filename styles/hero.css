@@ -1,0 +1,104 @@
+.hero-container {
+  padding-top: 32px;
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: var(--neutral-100);
+  background: var(--pattern-glow) 1228px 376px / 684px 684px no-repeat,
+    var(--pattern-light-bg);
+}
+
+.hero-content-container {
+  margin: 0 auto;
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.hero-grid-container {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-container .content-container {
+  width: 570px;
+}
+
+.hero-container .text-container {
+  margin-bottom: 32px;
+}
+
+.hero-container .text-container h1 {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+
+.hero-container .cta-container {
+  width: 388px;
+}
+
+.cta-container .action-btn {
+  margin-bottom: 20px;
+}
+
+.cta-container .action-btn .arrow-down {
+  position: relative;
+  width: 24px;
+  height: 25px;
+  object-fit: cover;
+  display: inline-block;
+  top: -1px;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.cta-container .cta-testimonial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.cta-container .cta-testimonial .cta-testimonial-image {
+  width: 110px;
+}
+
+.cta-stars-container .stars {
+  display: inline-block;
+  background: url(../assets/images/icon-star.svg),
+    url(../assets/images/icon-star.svg), url(../assets/images/icon-star.svg),
+    url(../assets/images/icon-star.svg), url(../assets/images/icon-star.svg);
+  width: 120px;
+  height: 25px;
+}
+
+.cta-rating-container p {
+  font-family: var(--font-martian-mono);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  letter-spacing: -2px;
+  line-height: 120%;
+}
+
+.hero-image {
+  border-radius: var(--radius-8);
+  object-fit: cover;
+  width: 540px;
+  height: 606px;
+}

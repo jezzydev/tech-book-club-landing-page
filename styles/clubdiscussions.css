@@ -1,0 +1,23 @@
+.club-discussions-container {
+  width: var(--max-width);
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.club-discussions-container .discussions-image {
+  width: 560px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: var(--radius-20);
+}
+
+.encircle::before {
+  position: absolute;
+  content: url(../assets/images/pattern-circle.png);
+  width: 160px;
+  height: 60px;
+  margin-left: -20px;
+  z-index: 2;
+}

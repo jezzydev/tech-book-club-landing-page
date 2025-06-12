@@ -1,0 +1,29 @@
+.club-features-container {
+  width: var(--max-width);
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.club-features-container .features-image {
+  width: 560px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: var(--radius-20);
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 431px;
+}
+
+.features-list li {
+  padding-left: 40px;
+  background-image: url(../assets/images/icon-check.svg);
+  background-position: 0 center;
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+}
