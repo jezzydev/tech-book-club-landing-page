@@ -31,6 +31,7 @@
   font-size: 18px;
   letter-spacing: -1px;
   line-height: 130%;
+  color: var(--neutral-900);
   background: var(--pattern-arrow) top 0% right 0% no-repeat;
 }
 
@@ -47,4 +48,5 @@
   height: 40px;
   padding: 10px;
   margin-bottom: 24px;
+  line-height: 100%;
 }
