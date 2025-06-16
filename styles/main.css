@@ -154,6 +154,7 @@
 body {
   box-sizing: border-box;
   font-family: var(--font-martian-mono);
+  color: var(--neutral-900);
 }
 
 h1,
@@ -181,6 +182,7 @@ ul {
 }
 
 .section {
+  box-sizing: border-box;
   margin: 120px auto;
 }
 
@@ -190,7 +192,6 @@ ul {
   font-size: 50px;
   letter-spacing: -2px;
   line-height: 130%;
-  margin-bottom: 34px;
 }
 
 .action-btn {

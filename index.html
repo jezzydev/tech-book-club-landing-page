@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/clubfeatures.css" />
     <link rel="stylesheet" href="./styles/clubdiscussions.css" />
+    <link rel="stylesheet" href="./styles/readingjourney.css" />
+    <link rel="stylesheet" href="./styles/membershipoptions.css" />
     <title>Frontend Mentor | Tech book club</title>
   </head>
   <body>
@@ -71,6 +73,7 @@
         </div>
       </div>
     </div>
+
     <div class="club-features-container section">
       <img
         class="features-image"
@@ -101,6 +104,11 @@
         </p>
       </div>
       <img
+        class="logos-tech"
+        alt="logos tech"
+        src="./assets/images/logos-tech.svg"
+      />
+      <img
         class="discussions-image"
         alt="discussions image"
         src="./assets/images/image-not-average-desktop.webp"
@@ -110,26 +118,70 @@
     <div class="reading-journey-container section">
       <h2 class="section-title">Your tech reading journey</h2>
       <ul class="steps-container">
-        <li><span>1</span> Choose your membership tier</li>
-        <li><span>2</span> Get your monthly book selection</li>
-        <li><span>3</span> Join our discussion forums</li>
-        <li><span>4</span> Attend exclusive meetups</li>
+        <li class="step">
+          <div class="stepnum">1</div>
+          <div>Choose your membership tier</div>
+        </li>
+        <li class="step">
+          <div class="stepnum">2</div>
+          <div>Get your monthly book selection</div>
+        </li>
+        <li class="step">
+          <div class="stepnum">3</div>
+          <div>Join our discussion forums</div>
+        </li>
+        <li class="step">
+          <div class="stepnum">4</div>
+          <div>Attend exclusive meetups</div>
+        </li>
       </ul>
     </div>
 
     <div id="membership-options" class="membership-options-container section">
       <h2 class="section-title">Membership options</h2>
       <ul class="options-container">
-        <li class="options-card">
-          <div>Starter $19/month 1 book/month Online forums</div>
+        <li class="option-card">
+          <div class="option-details">
+            <div class="option-name">Starter</div>
+            <div class="option-price-container">
+              <span class="option-price">$19</span
+              ><span class="option-price-desc">/month</span>
+            </div>
+            <hr class="option-divider" />
+            <ul class="option-features-container">
+              <li>1 book/month</li>
+              <li>Online forums</li>
+            </ul>
+          </div>
           <button>Subscribe now</button>
         </li>
-        <li class="options-card">
-          <div>Pro $29/month 2 books/month Virtual meetups</div>
+        <li class="option-card">
+          <div class="option-details">
+            <div class="option-name">Pro</div>
+            <div class="option-price-container">
+              <span class="option-price">$29</span
+              ><span class="option-price-desc">/month</span>
+            </div>
+            <hr class="option-divider" />
+            <ul class="option-features-container">
+              <li>2 books/month</li>
+              <li>Virtual meetups</li>
+            </ul>
+          </div>
           <button>Subscribe now</button>
         </li>
-        <li class="options-card">
-          <div>Enterprise Custom Team access Private sessions</div>
+        <li class="option-card">
+          <div class="option-details">
+            <div class="option-name">Enterprise</div>
+            <div class="option-price-container">
+              <span class="option-price">Custom</span>
+            </div>
+            <hr class="option-divider" />
+            <ul class="option-features-container">
+              <li>Team access</li>
+              <li>Private sessions</li>
+            </ul>
+          </div>
           <button>Talk to us</button>
         </li>
       </ul>

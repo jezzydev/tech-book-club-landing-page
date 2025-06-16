@@ -2,9 +2,8 @@
   padding-top: 32px;
   width: 100%;
   padding-bottom: 80px;
-  background-color: var(--neutral-100);
-  background: var(--pattern-glow) 1228px 376px / 684px 684px no-repeat,
-    var(--pattern-light-bg);
+  background: var(--pattern-glow) bottom 5px right 20px / 684px 684px no-repeat,
+    var(--pattern-light-bg) var(--neutral-100);
 }
 
 .hero-content-container {

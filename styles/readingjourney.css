@@ -1,0 +1,50 @@
+.reading-journey-container {
+  background-color: var(--neutral-100);
+  background: var(--pattern-glow) 1228px 376px / 684px 684px no-repeat,
+    var(--pattern-light-bg) var(--neutral-100);
+  width: var(--max-width);
+  height: 454px;
+  padding: 80px 0;
+}
+
+.reading-journey-container .section-title {
+  width: 512px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+
+.reading-journey-container .steps-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 48px;
+  width: 1050px;
+}
+
+.reading-journey-container .step {
+  flex: 1;
+  font-family: var(--font-martian-mono);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 130%;
+  background: var(--pattern-arrow) top 0% right 0% no-repeat;
+}
+
+.reading-journey-container .step:last-of-type {
+  background: none;
+}
+
+.reading-journey-container .stepnum {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: var(--radius-4);
+  border: 2px solid var(--neutral-900);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 24px;
+}

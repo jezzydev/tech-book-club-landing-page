@@ -6,6 +6,10 @@
   gap: 80px;
 }
 
+.club-features-container .section-title {
+  margin-bottom: 34px;
+}
+
 .club-features-container .features-image {
   width: 560px;
   height: 520px;

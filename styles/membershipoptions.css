@@ -1,0 +1,75 @@
+.membership-options-container {
+  width: 970px;
+}
+
+.membership-options-container .section-title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.membership-options-container .options-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+}
+
+.membership-options-container .option-card {
+  border: 1px solid var(--neutral-200);
+  border-radius: var(--radius-8);
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  font-family: var(--font-martian-mono);
+  color: var(--neutral-900);
+}
+
+.option-card .option-details {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 24px;
+}
+
+.option-card .option-divider {
+  border: 1px solid var(--neutral-200);
+  width: 100%;
+}
+
+.option-card .option-name {
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 110%;
+}
+
+.option-card .option-price-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.option-price-container .option-price {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 34px;
+  letter-spacing: -1px;
+  line-height: 130%;
+}
+
+.option-price-container .option-price-desc {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: var(--font-inter);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  line-height: 140%;
+  margin-left: 8px;
+}
