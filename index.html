@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./styles/clubdiscussions.css" />
     <link rel="stylesheet" href="./styles/readingjourney.css" />
     <link rel="stylesheet" href="./styles/membershipoptions.css" />
+    <link rel="stylesheet" href="./styles/testimonial.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <title>Frontend Mentor | Tech book club</title>
   </head>
   <body>
@@ -45,7 +47,7 @@
               </p>
             </div>
             <div class="cta-container">
-              <a href="#membership-options" class="action-btn"
+              <a href="#membership-options" class="action-btn light"
                 ><span
                   >Review membership options<img
                     class="arrow-down"
@@ -153,9 +155,9 @@
               <li>Online forums</li>
             </ul>
           </div>
-          <button>Subscribe now</button>
+          <button class="action-btn light">Subscribe now</button>
         </li>
-        <li class="option-card">
+        <li class="option-card selected">
           <div class="option-details">
             <div class="option-name">Pro</div>
             <div class="option-price-container">
@@ -168,7 +170,7 @@
               <li>Virtual meetups</li>
             </ul>
           </div>
-          <button>Subscribe now</button>
+          <button class="action-btn light">Subscribe now</button>
         </li>
         <li class="option-card">
           <div class="option-details">
@@ -182,13 +184,15 @@
               <li>Private sessions</li>
             </ul>
           </div>
-          <button>Talk to us</button>
+          <button class="action-btn light">Talk to us</button>
         </li>
       </ul>
     </div>
 
     <div class="testimonial-container section">
-      <div class="testimonial-stars-container"><span>Stars</span></div>
+      <div class="testimonial-rating-container">
+        <span class="stars"></span>
+      </div>
       <div class="testimonial-content">
         <blockquote class="quote">
           "This book club transformed my technical reading from a solitary
@@ -201,22 +205,39 @@
 
     <footer>
       <div class="footer-main-content-container">
-        <h2>Ready to debug your reading list?</h2>
+        <h2 class="section-title">Ready to debug your reading list?</h2>
         <div class="cta-container">
-          <div><a>Review membership options</a></div>
+          <a href="#membership-options" class="action-btn dark"
+            ><span
+              >Review membership options<img
+                class="arrow-up"
+                src="./assets/images/icon-arrow-up.svg" /></span
+          ></a>
           <div class="cta-testimonial">
-            <img class="cta-testimonial-image" />
+            <img
+              class="cta-testimonial-image"
+              src="./assets/images/image-avatars.webp"
+            />
             <div class="cta-rating-container">
-              <div class="cta-stars-container"><span>Stars</span></div>
+              <div class="cta-stars-container">
+                <span class="stars"></span>
+              </div>
               <p>200+ developers joined already</p>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-content-container">
-        <p>© 2024 - Tech Book Club</p>
+        <p class="footer-text">© 2024 - Tech Book Club</p>
         <div class="social-media-container">
-          <span>BlueSky</span><span>LinkedIn</span>
+          <img
+            class="icon-social-media"
+            src="./assets/images/logo-bluesky.svg"
+          />
+          <img
+            class="icon-social-media"
+            src="./assets/images/logo-linkedin.svg"
+          />
         </div>
       </div>
     </footer>

@@ -26,7 +26,7 @@
 
 .features-list li {
   padding-left: 40px;
-  background-image: url(../assets/images/icon-check.svg);
+  background-image: var(--icon-check);
   background-position: 0 center;
   background-size: 28px 28px;
   background-repeat: no-repeat;

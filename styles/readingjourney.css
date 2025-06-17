@@ -1,7 +1,7 @@
 .reading-journey-container {
   background-color: var(--neutral-100);
-  background: var(--pattern-glow) 1228px 376px / 684px 684px no-repeat,
-    var(--pattern-light-bg) var(--neutral-100);
+  background: right -500px top -20px no-repeat var(--pattern-glow),
+    var(--pattern-light-bg) 100%, var(--neutral-100) 100%;
   width: var(--max-width);
   height: 454px;
   padding: 80px 0;

@@ -1,0 +1,24 @@
+.testimonial-container {
+  width: 970px;
+  text-align: center;
+}
+
+.testimonial-container .stars {
+  display: inline-block;
+  background: var(--icon-star) 0/28px 28px, var(--icon-star) 34px/28px 28px,
+    var(--icon-star) 68px/28px 28px, var(--icon-star) 102px/28px 28px,
+    var(--icon-star) 136px/28px 28px;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 25px;
+  margin-bottom: 32px;
+}
+
+.testimonial-container .quote {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 34px;
+  letter-spacing: -1px;
+  line-height: 130%;
+  margin-bottom: 32px;
+}

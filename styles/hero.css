@@ -2,7 +2,7 @@
   padding-top: 32px;
   width: 100%;
   padding-bottom: 80px;
-  background: var(--pattern-glow) bottom 5px right 20px / 684px 684px no-repeat,
+  background: right -40% bottom 150% no-repeat var(--pattern-glow),
     var(--pattern-light-bg) var(--neutral-100);
 }
 
@@ -37,7 +37,7 @@
   margin-bottom: 24px;
 }
 
-.hero-container .cta-container {
+.cta-container {
   width: 388px;
 }
 
@@ -45,7 +45,8 @@
   margin-bottom: 20px;
 }
 
-.cta-container .action-btn .arrow-down {
+.cta-container .action-btn .arrow-down,
+.cta-container .action-btn .arrow-up {
   position: relative;
   width: 24px;
   height: 25px;
@@ -70,9 +71,8 @@
 
 .cta-stars-container .stars {
   display: inline-block;
-  background: url(../assets/images/icon-star.svg),
-    url(../assets/images/icon-star.svg), url(../assets/images/icon-star.svg),
-    url(../assets/images/icon-star.svg), url(../assets/images/icon-star.svg);
+  background: var(--icon-star), var(--icon-star), var(--icon-star),
+    var(--icon-star), var(--icon-star);
   width: 120px;
   height: 25px;
 }

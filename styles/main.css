@@ -161,7 +161,9 @@ h1,
 h2,
 p,
 ul,
-li {
+li,
+hr,
+blockquote {
   margin: 0;
   padding: 0;
 }
@@ -199,11 +201,13 @@ ul {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  border: 2px solid var(--neutral-900);
+  border-width: 2px;
+  border-style: solid;
+  /* border: 2px solid var(--neutral-900); */
   border-radius: var(--radius-8);
   padding: 20px 24px;
-  color: var(--neutral-900);
-  background: var(--light-salmon-50);
+  /* color: var(--neutral-900); */
+  /* background: var(--light-salmon-50); */
   font-weight: 600;
   font-style: normal;
   font-size: 18px;
@@ -211,12 +215,33 @@ ul {
   line-height: 130%;
 }
 
-.action-btn:hover,
-.action-btn:active {
+.light {
+  border-color: var(--neutral-900);
+  color: var(--neutral-900);
+  background: var(--light-salmon-50);
+}
+
+.dark {
+  border-color: var(--neutral-0);
+  color: var(--neutral-0);
+  background: transparent;
+}
+
+.action-btn.light:hover,
+.action-btn.light:active {
   background: linear-gradient(
     90deg,
     var(--light-salmon-100) 0%,
     var(--light-salmon-50) 100%
+  );
+}
+
+.action-btn.dark:hover,
+.action-btn.dark:active {
+  background: linear-gradient(
+    90deg,
+    var(--neutral-700) 0%,
+    var(--neutral-900) 100%
   );
 }
 
