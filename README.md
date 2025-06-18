@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Tech Book Club Landing Page](https://jezzydev.github.io/tech-book-club-landing-page)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-css-grid-css-variables-FNtCWQH2Wt)
+- Live Site URL: [Tech Book Club Landing Page](https://jezzydev.github.io/tech-book-club-landing-page/)
 
 ## My process
 
