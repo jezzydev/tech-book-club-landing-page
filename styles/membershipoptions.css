@@ -16,6 +16,7 @@
 }
 
 .membership-options-container .option-card {
+  box-sizing: border-box;
   border: 1px solid var(--neutral-200);
   border-radius: var(--radius-8);
   width: 286px;
@@ -102,4 +103,58 @@
 
 .option-card .action-btn {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .membership-options-container {
+    box-sizing: border-box;
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  .membership-options-container .section-title {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .membership-options-container .options-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .membership-options-container .option-card {
+    width: 340px;
+  }
+
+  .option-card.selected {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .membership-options-container {
+    box-sizing: border-box;
+    width: 375px;
+    padding: 0 16px;
+  }
+
+  .membership-options-container .section-title {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .membership-options-container .options-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .membership-options-container .option-card {
+    width: 100%;
+  }
+
+  .option-card.selected {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }

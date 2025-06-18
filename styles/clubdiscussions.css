@@ -1,7 +1,6 @@
 .club-discussions-container {
   position: relative;
   width: var(--max-width);
-  height: 520px;
   display: flex;
   flex-direction: row;
   gap: 80px;
@@ -9,6 +8,10 @@
 
 .club-discussions-container .section-title {
   margin-bottom: 24px;
+}
+
+.club-discussions-container .lang {
+  font-weight: 600;
 }
 
 .club-discussions-container .discussions-image {
@@ -20,16 +23,69 @@
 
 .club-discussions-container .logos-tech {
   position: absolute;
-  left: 50%;
+  right: 45%;
   bottom: 8%;
-  margin: 0 0 0 -60px;
 }
 
-.encircle::before {
+.encircle-container {
+  position: relative;
+  display: inline-block;
+}
+
+.encircle {
   position: absolute;
-  content: url(../assets/images/pattern-circle.png);
   width: 160px;
-  height: 60px;
-  margin-left: -20px;
-  z-index: 2;
+  height: 66px;
+  z-index: 99;
+  left: -18px;
+}
+
+@media screen and (max-width: 768px) {
+  .club-discussions-container {
+    width: 704px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .club-discussions-container .discussions-image {
+    width: 704px;
+    height: 654px;
+  }
+
+  .club-discussions-container .logos-tech {
+    bottom: 4%;
+    right: 4%;
+    margin: 0;
+  }
+
+  .club-discussions-container .section-title {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .club-discussions-container {
+    width: 343px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .club-discussions-container .discussions-image {
+    width: 343px;
+    height: 318px;
+  }
+
+  .club-discussions-container .logos-tech {
+    display: none;
+  }
+
+  .club-discussions-container .section-title {
+    width: 100%;
+  }
+
+  .encircle {
+    width: 109px;
+    height: 47px;
+    left: -12px;
+  }
 }
